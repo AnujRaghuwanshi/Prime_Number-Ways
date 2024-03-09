@@ -18,6 +18,7 @@ int main(){
    
     return 0;
 }
+//Time Complexity : O(n)
 /*In this program we are checking whether a number is prime or not by
 using for loop from i=2 to i<number.
 If number is divisible by i increase the count by 1.
