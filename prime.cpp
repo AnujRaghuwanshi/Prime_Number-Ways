@@ -4,8 +4,8 @@ int main(){
     int number;
     cout<<"Enter natural number: ";
     cin>>number;
-
-    if(number==2 || number==3) cout<<number<<" is a prime";
+    if(number==1) cout<<number<<" is not  prime"; 
+    if(number==2 || number==3) cout<<number<<" is prime number";
 
     else if(number>3){
     int num = number*number;
