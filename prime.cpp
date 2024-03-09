@@ -18,6 +18,7 @@ int main(){
    
     return 0;
 }
+//Time Complexity : O(1)
 /*In this program we are checking whether a number is prime or not by
 squaring the number and if subtracting or adding 1 to square of the number
 makes it divisible by 24 then it is a prime number.....
