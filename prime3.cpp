@@ -22,7 +22,7 @@ int main()
 	
 	return 0;
 }
-
+//Time Complexity : O(n)
 /*Run a loop from i=2 to n/2.
 Inside the loop, check whether n is divisible by i.
 If n is not divisible by i, it means n is a prime number.
