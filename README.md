@@ -6,7 +6,8 @@
 This is the simplest approach where you iterate through every integer from 2 up to n-1.
 If n is divisible by any of these numbers, it is composite; otherwise, it is prime.
 Because the loop can run up to times in the worst case (when n is prime), the complexity is linear, denoted as O(n).
-[Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime2.cpp)
+
+[Check Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime2.cpp)
 
 ---
 
@@ -14,7 +15,8 @@ Because the loop can run up to times in the worst case (when n is prime), the co
 An optimization where you only check for divisors up to O(n/2).
 Since no number greater than n/2 (other than n itself) can be a factor of n, it is unnecessary to check beyond this point.
 In Big O notation, constants are dropped, so this remains O(n) asymptotically, but it reduces actual execution time by half compared to the brute force method.
-[Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime3.cpp)
+
+[Check Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime3.cpp)
 
 ---
 
@@ -22,7 +24,8 @@ In Big O notation, constants are dropped, so this remains O(n) asymptotically, b
 The most efficient standard trial division method, where you only iterate up to √n
 Factors always come in pairs (a*b = n)); if both factors were greater than √n, their product would exceed n. Therefore, at least one factor must be less than or equal to √n.
 This method significantly reduces iterations, especially for large numbers.
-[Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime4.cpp)
+
+[Check Implementation](https://github.com/AnujRaghuwanshi/Prime_Number-Ways/blob/main/prime4.cpp)
 
 ---
 
